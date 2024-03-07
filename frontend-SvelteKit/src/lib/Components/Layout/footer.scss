@@ -1,0 +1,29 @@
+@media(min-width:920px){
+footer{
+    flex-direction: row!important;
+    flex-wrap: wrap;
+    gap: 80px!important;
+    align-items: center;
+
+    .space {
+        height: 100px;
+    width: 2px;
+    }
+}
+}
+
+@media(max-width:720px){
+    footer{
+        .space{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+@media(max-width:910px){
+    footer{
+        flex-direction: column!important;
+        flex-wrap: nowrap;
+    }
+}

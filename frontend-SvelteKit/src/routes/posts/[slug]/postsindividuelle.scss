@@ -1,0 +1,65 @@
+.inhalt-blogs{
+    width: 100%;
+    h1{
+        margin-bottom: 1rem!important;
+    }
+
+    img{
+        min-width: 300px;
+        max-width: auto;
+        min-height: 300px;
+        max-height: auto;
+      width: auto;
+      height: auto;
+
+    }
+
+    h2{
+        text-align: right;
+        margin-top:10px;
+    }
+p{
+    word-wrap: break-word;
+    
+}
+a{
+    margin-top: 36px;
+    display: block;
+}
+
+}
+
+//tabs 
+  .tabs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #000000;
+    border: 1px solid #ccc;
+    border-bottom: none;
+  }
+
+  .tab:hover {
+    background-color: rgb(32, 32, 32);
+  }
+
+  .tab h3 {
+    margin: 0;
+  }
+
+  .tab-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .selected {
+    background-color: rgb(255, 0, 234);
+  }
+
+ 
